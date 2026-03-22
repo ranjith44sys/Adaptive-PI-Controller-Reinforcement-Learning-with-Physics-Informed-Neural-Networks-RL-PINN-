@@ -1,0 +1,30 @@
+Error reading e:\Caterpiller\Simulink_Data.mat: Mat file appears to be truncated
+
+--- e:\Caterpiller\Simulink_Data (1).mat ---
+Key: None, Type: <class 'scipy.io.matlab._mio5_params.MatlabOpaque'>
+  Shape: (1,)
+  Value: [(b'SimulinkData', b'MCOS', b'Simulink.SimulationData.Dataset', array([[3707764736],
+        [         2],
+        [         1],
+        [         1],
+        [         1],
+        [         9]], dtype=uint32))                                               ]
+
+--- ML_RL.csv ---
+Columns: ['error', 'disturbance', 'Kp_corr', 'Ki_corr']
+Describe:
+              error   disturbance       Kp_corr       Ki_corr
+count  6.666700e+04  66667.000000  66667.000000  66667.000000
+mean   9.760451e-01    185.541628     13.107178      6.125881
+std    8.735230e+01    156.588879     11.494712      5.233439
+min   -8.018810e+02      0.000000      1.000000      1.000000
+25%   -5.626471e-07     50.000006      3.500011      2.000006
+50%    4.807178e-02    100.238415     11.001961      5.001804
+75%    3.825569e+00    322.009471     21.008309      9.014673
+max    4.135531e+02    499.949919     90.642997     44.876009
+Correlation:
+                error  disturbance   Kp_corr   Ki_corr
+error        1.000000     0.157875 -0.254282 -0.302870
+disturbance  0.157875     1.000000  0.695157  0.613816
+Kp_corr     -0.254282     0.695157  1.000000  0.994200
+Ki_corr     -0.302870     0.613816  0.994200  1.000000
